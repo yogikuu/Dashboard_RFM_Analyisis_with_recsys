@@ -12,6 +12,7 @@ dependencies:
 - pip==22.2.2
 - ipython==8.4.0
 - tqdm==4.64.1
+- streamlit==1.37.0
 # Data Science
 - numpy==1.23.0
 - scipy==1.8.1
@@ -42,3 +43,4 @@ dependencies:
   - kmodes==0.10.2
   - pyclustering==0.10.1.2
   - pmdarima==1.8.5
+
