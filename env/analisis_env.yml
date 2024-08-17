@@ -1,0 +1,44 @@
+name: analisis_env
+
+channels:
+- conda-forge
+- anaconda 
+- pytorch
+
+dependencies:
+# Essential
+- python==3.8.0
+- nb_conda_kernels==2.3.1
+- pip==22.2.2
+- ipython==8.4.0
+- tqdm==4.64.1
+# Data Science
+- numpy==1.23.0
+- scipy==1.8.1
+- pandas==1.4.3
+# Machine Learning
+- scikit-learn==1.1.1
+- statsmodels==0.13.2
+- umap-learn==0.5.3
+# Visualization
+- matplotlib==3.5.2
+- seaborn==0.11.2
+- ipywidgets==7.7.1
+- plotly==4.6.0
+# NLP
+- nltk==3.7
+- gensim==3.8.3
+- torchtext==0.14.1
+# Deep Learning
+- pytorch==1.13.1
+# Computer Vision
+- torchvision==0.14.1
+
+- pip:
+  # Machine Learning
+  - xgboost==1.6.1
+  - scikit-optimize==0.9.0
+  - luwiji==1.2.0
+  - kmodes==0.10.2
+  - pyclustering==0.10.1.2
+  - pmdarima==1.8.5
